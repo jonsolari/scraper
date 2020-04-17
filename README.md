@@ -7,4 +7,5 @@ Runs on the command line, expects a search string as an argument variable, for e
 ```python3 ebay.py "mountain goats sweden lp"```
 
 Will return 'None' if there are no results including all the words in the string. 
+
 Otherwise will return the Title, Current Bid, and URL of the lowest-priced auction listing.
