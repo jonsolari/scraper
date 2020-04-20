@@ -2,7 +2,9 @@
 
 This is an HTML scraper made in python using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/).
 
-Runs on the command line, expects a search string as an argument variable, for example:
+Runs on the command line, requires python3.
+
+Expects a search string as an argument variable, for example:
 
 ```python3 ebay.py "mountain goats sweden lp"```
 
