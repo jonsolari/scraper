@@ -15,7 +15,6 @@ def get_page(url):
 def get_detail_data(soup):
     nope = soup.findAll(text='No exact matches found')
     
-    
     h3 = soup.find('h3', class_="s-item__title").text
     span = soup.find('span', class_="s-item__price").text
     href = soup.find('a', class_="s-item__link", href=True).get('href')
@@ -25,6 +24,10 @@ def get_detail_data(soup):
         print(h3)
         print(span[1:])
         print(href)
+
+
+# TODO loop over list of releases to search for, update JSON / remove things no longer available 
+
 
 def main():
     title = sys.argv[1]
